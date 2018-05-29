@@ -20,3 +20,5 @@ Geospatial data management application demo
 
 * Angular
 * OpenLayers
+* Typescript
+* Material design
