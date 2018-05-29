@@ -1,0 +1,8 @@
+<mat-radio-group class="rule-selector-radio-group" [(ngModel)]="selected" (change)="ruleChanged($event)">
+  <mat-radio-button class="rule-selector-radio-button" *ngFor="let rule of rules" [value]="rule">
+    <div>
+      <p>{{rule.description}}</p>
+      <!--small class="rule-selector-description"> {{data.description}} </small-->
+    </div>
+  </mat-radio-button>
+</mat-radio-group>

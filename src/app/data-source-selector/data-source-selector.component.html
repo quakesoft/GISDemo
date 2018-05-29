@@ -1,0 +1,8 @@
+<mat-radio-group class="data-source-selector-radio-group" [(ngModel)]="selected" (change)="dataSourceChangedInternal($event)">
+  <mat-radio-button class="data-source-selector-radio-button" *ngFor="let data of geodata" [value]="data">
+    <div>
+      <p>{{data.name}}</p>
+      <small class="data-source-selector-description"> {{data.description}} </small>
+    </div>
+  </mat-radio-button>
+</mat-radio-group>

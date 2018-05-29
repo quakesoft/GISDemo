@@ -1,0 +1,9 @@
+.rule-selector-radio-group {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0px 8px;
+}
+
+.rule-selector-radio-button {
+  margin: 0px 8px;
+}

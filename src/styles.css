@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@import 'https://openlayers.org/en/v4.6.5/css/ol.css';
+body {
+    font-family: Roboto, Arial
+}
+
+.notification-area {
+    margin: 15px;
+    height: 100px;
+    width: 490px;
+    border: 1px solid;
+    font-family: sans-serif, "Helvetica Neue", Arial;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.v-align {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.success {
+    border-color: green;
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.fail {
+    border-color: red;
+    background-color: lightcoral;
+    color: darkred;
+}
+
+.info {
+    border-color: blue;
+    background-color: lightblue;
+    color: darkblue;
+}

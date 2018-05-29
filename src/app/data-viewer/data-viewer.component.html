@@ -1,0 +1,5 @@
+<mat-form-field class="viewer">
+  <textarea matInput placeholder="GeoJSON" rows="15" class="area" [ngModel]="data"
+    (ngModelChange)="notifyChange($event)">
+  </textarea>
+</mat-form-field>
